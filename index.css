@@ -1,0 +1,44 @@
+
+p {
+	color: yellow;
+}
+
+*{
+	font-family: "Verdana"; monospace
+
+}
+
+h1{
+	font-size: 60px;
+}
+
+h2{
+	text-transform: uppercase;
+}
+
+.tobeLearned {
+	background-color: lightgreen;
+}
+
+li[style]{
+	border-width: 1px;
+	border-style: solid;
+	border-color: steelblue;
+}
+
+body img {
+	border-radius: 75%;
+	height:120px;
+	width: 120px;
+}
+
+ul ~ p{
+	text-align: center;
+}
+
+ul > li{
+	list-style-type: none;
+	letter-spacing: 10px;
+}
+
+
