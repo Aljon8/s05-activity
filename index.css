@@ -26,6 +26,11 @@ li[style]{
 	border-color: steelblue;
 }
 
+#picture + #other{
+	list-style-type: none;
+}
+
+
 body img {
 	border-radius: 75%;
 	height:120px;
@@ -37,7 +42,6 @@ ul ~ p{
 }
 
 ul > li{
-	list-style-type: none;
 	letter-spacing: 10px;
 }
 
